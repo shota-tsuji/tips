@@ -1,3 +1,6 @@
+## Remove directory from git but Not local(my filesystem)
+git rm -r --cached myFolder
+
 ## check files organized by git
 git ls-files
 
