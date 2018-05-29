@@ -1,0 +1,44 @@
+\documentclass[a4paper,11pt]{jsarticle}
+\usepackage{enumitem,amssymb} % use squre for enum environment
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+
+\begin{document}
+
+毎朝もちものリスト
+\begin{todolist}
+	\item お財布
+	\item 携帯電話
+	\item 時計
+	\item 家の鍵
+	\item 自転車の鍵
+	\item ポケットティッシュ
+	\item ハンカチ
+	\item 買い物袋
+	\item 生活用品の袋
+	\begin{todolist}
+		\item 予備のポケットティッシュ
+		\item ウェットティッシュ
+		\item MP3 player
+		\item イヤフォン
+	\end{todolist}
+	\item ふでばこ
+	\item ノートA4
+	\item メモ帳A5（立ちながらメモとるようなことがある日）
+	\item クリアファイル（必要な書類がある場合には，はいっているかもチェック）
+	\item ノートパソコン（ケースもつけて）
+	\item 充電器セット
+	\item そのほか，その日に必要になるものはある？
+\end{todolist}
+
+毎朝やること
+\begin{todolist}
+	\item 起きる
+	\item トイレ行く
+	\item 歯磨きする
+	\item 顔洗う
+	\item 朝ごはん（つくる or 食べる）
+	\item 着替える
+\end{todolist}
+
+\end{document}
